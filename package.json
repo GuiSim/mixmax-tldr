@@ -1,28 +1,26 @@
 {
-  "name": "giphy-example-slash-command",
+  "name": "mixmax-tldr",
   "version": "0.0.1",
-  "description": "Giphy slash command for Mixmax",
+  "description": "TL;DR for Mixmax",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mixmaxhq/giphy-example-slash-command.git"
+    "url": "git://github.com/guisim/mixmax-tldr.git"
   },
-  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "author": "Guillaume Simard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mixmaxhq/giphy-example-slash-command/issues"
+    "url": "https://github.com/guisim/mixmax-tldr/issues"
   },
-  "homepage": "https://github.com/mixmaxhq/giphy-example-slash-command",
+  "homepage": "https://github.com/guisim/mixmax-tldr",
   "dependencies": {
-    "body-parser": "^1.12.2",
     "cors": "^2.7.1",
     "express": "^4.12.3",
-    "request": "^2.64.0",
-    "synchronize": "^0.9.14",
-    "underscore": "^1.8.3"
+    "unirest" : "^0.5.0",
+    "synchronize": "^0.9.14"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"
