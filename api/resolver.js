@@ -9,7 +9,7 @@ module.exports = function(req, res) {
     smmry.summarize(text, function(summary) {
         res.json({
             subject: summary.title,
-            body: summary.body
+            body: '<b>Summary of </b><a href="' + text + '">' + text + '</a><p>' + summary.body.replace(/\n/g, '<br/>') + '</p>'
         })
     });
 };
