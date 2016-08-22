@@ -1,6 +1,7 @@
 module.exports = function(req, res) {
+    var text = req.query.text ? req.query.text : '';
     res.json([{
-        title: '<i>' + req.query.text.substr(0, 25) + '</i>',
-        text: req.query.text
+        title: '<i>' + text.substr(0, 50) + '</i>',
+        text: text
     }]);
 };
