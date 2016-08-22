@@ -1,6 +1,13 @@
 # TL;DR Slash Command for Mixmax
 
-This Mixmax Slash commands allows you to easily summarize long emails or linked web pages.
+This Mixmax Slash commands allows you to easily summarize web articles, blog posts and long text.
+
+## Usage
+
+Type `/tldr` followed by an URL or a long text that you want summarized.
+
+![Example](https://i.gyazo.com/726b3046360c875387b02b4ec068942f.gif)
+![Example](https://i.gyazo.com/16ac4f0afcf203d2b395d1a5f2bffc6c.gif)
 
 ## Mixmax integration setup
 
@@ -23,4 +30,4 @@ This Mixmax Slash commands allows you to easily summarize long emails or linked 
 
 To simulate locally how Mixmax calls the resolver URL (to return HTML that goes into the email), navigate to 
 
-http://localhost:9145/resolver?text=https://mixmax.com/blog/requiring-node-builtins-with-webpack
+[http://localhost:9145/resolver?text=https://mixmax.com/blog/requiring-node-builtins-with-webpack](http://localhost:9145/resolver?text=https://mixmax.com/blog/requiring-node-builtins-with-webpack)
